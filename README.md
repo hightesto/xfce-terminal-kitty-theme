@@ -14,3 +14,5 @@ A theme for kitty based on the colors of Xfce4-terminal
     ```
     include xfce-terminal-kitty-theme.conf
     ```
+
+You could also put the theme in `~/.config/kitty/themes/` and choose it with `kitten themes`
