@@ -5,19 +5,11 @@ A theme for kitty based on the colors of Xfce4-terminal
 
 1. Download the theme
       ```bash
-      THEME=https://raw.githubusercontent.com/hightesto/xfce-terminal-kitty-theme/master/themes/xfce-terminal-kitty-theme.conf
-      wget "$THEME" -P ~/.config/kitty/kitty-themes/themes
+      wget "https://raw.githubusercontent.com/hightesto/xfce-terminal-kitty-theme/master/themes/xfce-terminal-kitty-theme.conf" -P ~/.config/kitty/
       ```
 
-2. Choose a theme and create a symlink:
-
-    ```bash
-    cd ~/.config/kitty
-    ln -s ./kitty-themes/themes/xfce-terminal-kitty-theme.conf ~/.config/kitty/theme.conf
-    ```
-
-3. Add this line to your kitty.conf configuration file:
+2. Add this line to your kitty.conf configuration file:
 
     ```
-    include ./theme.conf
+    include xfce-terminal-kitty-theme.conf
     ```
